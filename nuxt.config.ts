@@ -3,5 +3,9 @@ export default defineNuxtConfig({
   modules: [
     'nuxt-windicss'
   ],
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  runtimeConfig: {
+    apiKey: '',
+    apiBaseUrl: ''
+  }
 })
