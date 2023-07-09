@@ -4,7 +4,7 @@ export default defineEventHandler((event) => {
     return $fetch(`${config.apiBaseUrl}/movie/${id}`, {
         method: 'GET',
         headers: {
-            "Authorization": `Bearer ${config.apiKey}`
+            "Authorization": `Bearer ${config.apiToken}`
         }
     })
 })
